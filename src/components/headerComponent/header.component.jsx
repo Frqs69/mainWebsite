@@ -1,9 +1,10 @@
 import { Icon } from "@iconify/react";
+import "./header.styles.scss";
 
 export default function Header() {
 	return (
 		<header>
-			<p>zdjęcie</p>
+			<div className='heroImg'></div>
 			<h1>Front-end React Developer</h1>
 			<p>
 				Hi, I'm Kamil Bazyluk. A passionate Front-end React Developer based in
