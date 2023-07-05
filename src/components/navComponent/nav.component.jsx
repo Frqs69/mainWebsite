@@ -3,12 +3,14 @@ import { Icon } from "@iconify/react";
 export default function Nav() {
 	return (
 		<>
-			<nav className='Mobile'>
-				<p>Kamil.dev</p>
-				<Icon icon='iconamoon:menu-burger-horizontal' />
+			<nav className='Mobile flex items-center justify-between px-5 shadow-lg'>
+				<img src='/logo-black.svg' alt='' className='w-24' />
+				<Icon icon='iconamoon:menu-burger-horizontal' width='40px' />
 			</nav>
-			<nav className='Desktop'>
-				<p>Kamil.deb</p>
+			<nav className='Desktop hidden md:block '>
+				<p>
+					<img src='/logo-black.svg' alt='' className='w-24' />
+				</p>
 				<ul>
 					<li>Home</li>
 					<li>About</li>
