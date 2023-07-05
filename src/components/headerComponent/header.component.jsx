@@ -26,36 +26,36 @@ export default function Header() {
 					Tech Stack
 				</p>
 				<ul className='mt-10 mb-40 inline-grid grid-cols-3 gap-5'>
-					<li className='rounded-[50%] shadow-lg flex justify-center items-center'>
+					<li className='rounded-[50%] shadow-3xl flex justify-center items-center'>
 						<Icon
 							icon='vscode-icons:file-type-html'
 							className='m-4'
 							width='40'
 						/>
 					</li>
-					<li className='rounded-[50%] shadow-lg flex justify-center items-center'>
+					<li className='rounded-[50%] shadow-3xl flex justify-center items-center'>
 						<Icon icon='vscode-icons:file-type-css' width='40' />
 					</li>
-					<li className='rounded-[50%] shadow-lg flex justify-center items-center'>
+					<li className='rounded-[50%] shadow-3xl flex justify-center items-center'>
 						<Icon
 							icon='vscode-icons:file-type-js-official'
 							className='m-4'
 							width='40'
 						/>
 					</li>
-					<li className='rounded-[50%] shadow-lg flex justify-center items-center'>
+					<li className='rounded-[50%] shadow-3xl flex justify-center items-center'>
 						<Icon icon='devicon:react' className='m-4' width='40' />
 					</li>
-					<li className='rounded-[50%] shadow-lg flex justify-center items-center'>
+					<li className='rounded-[50%] shadow-3xl flex justify-center items-center'>
 						<Icon icon='logos:tailwindcss-icon' width='30' />
 					</li>
-					<li className='rounded-[50%] shadow-lg flex justify-center items-center'>
+					<li className='rounded-[50%] shadow-3xl flex justify-center items-center'>
 						<Icon icon='logos:sass' width='40' />
 					</li>
-					<li className='rounded-[50%] shadow-lg flex justify-center items-center'>
+					<li className='rounded-[50%] shadow-3xl flex justify-center items-center'>
 						<Icon icon='logos:figma' className='m-4' width='20' />
 					</li>
-					<li className='rounded-[50%] shadow-lg flex justify-center items-center'>
+					<li className='rounded-[50%] shadow-3xl flex justify-center items-center'>
 						<Icon icon='skill-icons:photoshop' className='m-4' width='40' />
 					</li>
 				</ul>
