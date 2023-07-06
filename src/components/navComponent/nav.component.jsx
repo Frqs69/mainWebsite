@@ -12,7 +12,7 @@ export default function Nav() {
 					<p>
 						<img src='/logo-black.svg' alt='' className='w-24' />
 					</p>
-					<ul className='flex items-center gap-10 font-bold text-mainTextColor'>
+					<ul className='flex items-center gap-10 font-bold text-mainTextColor text-xl'>
 						<li>Home</li>
 						<li>About</li>
 						<li>Project</li>

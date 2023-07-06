@@ -4,10 +4,10 @@ export default function AboutMe() {
 			<img
 				src='/mobileImg1.jpg'
 				alt='RandomImg'
-				className='rounded-[15px] w-3/4 mx-auto md:h-80 md:mx-0 md:w-10/12 md:h-5/6'
+				className='rounded-[15px] w-3/4 mx-auto md:mx-0 md:w-10/12 md:h-5/6'
 			/>
 			<div>
-				<h3 className='font-bold text-thirdColor uppercase text-center mb-3 mt-8 md:mt-0 md:text-left md:text-lg'>
+				<h3 className='font-bold text-thirdColor uppercase text-center mb-3 mt-8 md:mt-0 md:text-left md:text-xl'>
 					About me
 				</h3>
 				<h2 className='font-bold text-mainTextColor text-center text-2xl px-2 mb-6 md:text-left md:px-0 md:text-3xl'>

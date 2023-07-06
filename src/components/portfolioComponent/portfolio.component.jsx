@@ -4,7 +4,7 @@ export default function Portfolio() {
 	return (
 		<div className='secondSection bg-backgroundColor pt-8 pb-16 '>
 			<div className='md:w-3/5  md:mx-auto'>
-				<h3 className='font-bold text-thirdColor uppercase text-center mb-3 mt-8 md:text-lg md:text-left md:mt-20'>
+				<h3 className='font-bold text-thirdColor uppercase text-center mb-3 mt-8 md:text-xl md:text-left md:mt-20'>
 					Portfolio
 				</h3>
 				<h2 className='font-bold text-mainTextColor text-center text-2xl px-2 mb-6 md:text-left md:text-3xl md:px-0 md:mb-20'>
