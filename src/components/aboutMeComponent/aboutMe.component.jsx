@@ -2,7 +2,7 @@ import { Icon } from "@iconify/react";
 
 export default function AboutMe() {
 	return (
-		<div className='aboutMeSection pt-20'>
+		<div className='aboutMeSection pt-20 md:w-3/5 md:mx-auto'>
 			<img
 				src='/mobileImg1.jpg'
 				alt='RandomImg'
