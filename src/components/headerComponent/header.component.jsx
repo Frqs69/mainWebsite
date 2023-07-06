@@ -5,12 +5,12 @@ export default function Header() {
 	return (
 		<header className='bg-backgroundColor pt-10 md:pb-10 '>
 			<div className='md:flex md:flex-row-reverse md:w-3/5 md:mx-auto md:mt-20 md:justify-between'>
-				<div className='heroImg mx-auto w-64 h-64 md:w-72 md:h-72 md:mx-0'></div>
+				<div className='heroImg mx-auto w-64 h-64 md:w-96 md:h-96 md:mx-0'></div>
 				<div className='md:w-1/2 '>
-					<h1 className='font-bold text-4xl text-center my-10 px-12 leading-tight text-mainTextColor  md:text-left md:px-0 md:text-5xl'>
+					<h1 className='font-bold text-4xl text-center my-10 px-12 leading-tight text-mainTextColor  md:text-left md:px-0 md:text-6xl'>
 						Front-end React Developer
 					</h1>
-					<p className='text-secondTextColor text-center px-4 mb-10 md:text-left md:px-0 md:text-sm md:w-4/5'>
+					<p className='text-secondTextColor text-center px-4 mb-10 md:text-left md:px-0 md:text-lg md:w-4/5'>
 						Hi, I'm Kamil Bazyluk. A passionate Front-end React Developer based
 						in Warsaw, Poland. 📍
 					</p>
@@ -25,7 +25,7 @@ export default function Header() {
 				</div>
 			</div>
 
-			<div className='techStackBox text-center md:flex md:text-left  md:w-max md:mt-20 md:pl-80 md:items-center '>
+			<div className='techStackBox text-center md:flex md:text-left  md:w-max md:mt-20 md:pl-96 md:items-center '>
 				<p className='mx-auto border-b-2 w-28 text-center border-x-zinc-200 pb-4 md:text-left md:mx-0 md:border-r-2 md:border-b-0 md:pt-4'>
 					Tech Stack
 				</p>
