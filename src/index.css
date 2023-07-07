@@ -8,9 +8,12 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	scroll-behavior: smooth;
+	scroll-padding-top: var(--scroll-padding, 80px);
 }
 
 body {
 	font-family: "Mulish", sans-serif;
 	font-family: "Poppins", sans-serif;
+	overflow-x: hidden;
 }

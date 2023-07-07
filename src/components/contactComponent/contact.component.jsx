@@ -2,7 +2,7 @@ import { Icon } from "@iconify/react";
 
 export default function Contact() {
 	return (
-		<div className='contactSection pt-8 md:w-3/5  md:mx-auto md:pt-20 md:pb-20'>
+		<div className='contactSection pt-8 md:w-3/5  md:mx-auto md:pt-20 md:pb-20' id='contact'>
 			<h3 className='font-bold text-thirdColor uppercase text-center mb-3 mt-8 md:text-left md:text-xl'>
 				Contact
 			</h3>

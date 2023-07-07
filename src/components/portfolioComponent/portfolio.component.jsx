@@ -2,7 +2,7 @@ import { Icon } from "@iconify/react";
 
 export default function Portfolio() {
 	return (
-		<div className='secondSection bg-backgroundColor pt-8 pb-16 '>
+		<div className='secondSection bg-backgroundColor pt-8 pb-16 ' id='portfolio'>
 			<div className='md:w-3/5  md:mx-auto'>
 				<h3 className='font-bold text-thirdColor uppercase text-center mb-3 mt-8 md:text-xl md:text-left md:mt-20'>
 					Portfolio
