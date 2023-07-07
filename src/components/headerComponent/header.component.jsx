@@ -10,7 +10,7 @@ export default function Header() {
 					<h1 className='font-bold text-4xl text-center my-10 px-12 leading-tight text-mainTextColor  md:text-left md:px-0 md:text-6xl'>
 						Front-end React Developer
 					</h1>
-					<p className='text-secondTextColor text-center px-4 mb-10 md:text-left md:px-0 md:text-lg md:w-4/5'>
+					<p className='text-secondTextColor text-center px-4 mb-10  md:text-left md:px-0 md:text-lg md:w-4/5'>
 						Hi, I'm Kamil Bazyluk. A passionate Front-end React Developer based
 						in Warsaw, Poland. 📍
 					</p>

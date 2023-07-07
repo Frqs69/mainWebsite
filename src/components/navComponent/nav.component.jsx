@@ -50,16 +50,16 @@ export default function Nav() {
 						<img src='/logo-black.svg' alt='' className='w-24' />
 					</p>
 					<ul className='flex items-center gap-10 font-bold text-mainTextColor text-xl'>
-						<li>
+						<li className='hover:text-thirdColor transition-colors duration-300'>
 							<a href='#'>Home</a>{" "}
 						</li>
-						<li>
+						<li className='hover:text-thirdColor transition-colors duration-300'>
 							<a href='#aboutMe'>About</a>
 						</li>
-						<li>
+						<li className='hover:text-thirdColor transition-colors duration-300'>
 							<a href='#portfolio'>Project</a>
 						</li>
-						<li>
+						<li className='hover:text-thirdColor transition-colors duration-300'>
 							<a href='#contact'>Contact</a>
 						</li>
 					</ul>
