@@ -2,7 +2,9 @@ import { Icon } from "@iconify/react";
 
 export default function Portfolio() {
 	return (
-		<div className='secondSection bg-backgroundColor pt-8 pb-16 ' id='portfolio'>
+		<div
+			className='secondSection bg-backgroundColor pt-8 pb-16 '
+			id='portfolio'>
 			<div className='md:w-3/5  md:mx-auto'>
 				<h3 className='font-bold text-thirdColor uppercase text-center mb-3 mt-8 md:text-xl md:text-left md:mt-20'>
 					Portfolio
@@ -12,25 +14,40 @@ export default function Portfolio() {
 				</h2>
 				<div className='projectList px-5 md:px-0'>
 					<div className='project bg-white p-5 rounded-xl shadow-3xl mb-10 md:grid md:grid-cols-2 md:mb-16'>
-						<img className='rounded-xl' src='/mobileImg1.jpg' alt='' />
+						<div className='w-full h-40  relative overflow-hidden rounded-xl md:h-full'>
+							<img
+								className='  absolute top-0 w-full transition-all duration-11000 hover:-top-[1880px] ease-linear md:top-0'
+								src='/pizzaWebsiteImg.png'
+								alt=''
+							/>
+						</div>
+
 						<div>
 							<p className='projectTitle uppercase font-bold text-center my-5 md:text-xl'>
-								car rental
+								Pizzaku 🍕
 							</p>
-							<p className='projectDescription text-center text-secondTextColor md:px-32 md:text-lg'>
-								A car rental website is an online platform that allows users to
-								rent cars for personal or business use. The website provides an
-								interface for searching, comparing, and reserving cars.
+							<p className='projectDescription text-center text-secondTextColor md:px-24 md:text-lg'>
+								Pizzaku is an online platform dedicated to satisfying your
+								cravings for delicious pizza. Our website offers a convenient
+								and user-friendly interface that allows you to order pizza for
+								any occasion, whether it's a casual dinner at home or a
+								gathering with friends.
 							</p>
 							<div className='techStackBox flex gap-3 justify-center my-5'>
 								<p className='shadow-3xl px-3 py-2 md:text-xl'>React</p>
 								<p className='shadow-3xl px-3 py-2 md:text-xl'>SCSS</p>
 							</div>
 							<div className='links flex justify-center gap-6 mt-8'>
-								<a href='' className='flex items-center'>
+								<a
+									href='https://github.com/Frqs69/Pizza-Website'
+									className='flex items-center'
+									target='_blank'>
 									Code <Icon icon='mdi:github' width='30' className='ml-1' />
 								</a>
-								<a href='' className='flex items-center'>
+								<a
+									href='https://pizzasitebyme.netlify.app/'
+									className='flex items-center'
+									target='_blank'>
 									Live demo{" "}
 									<Icon
 										icon='akar-icons:link-out'

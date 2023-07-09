@@ -12,6 +12,9 @@ export default {
 			boxShadow: {
 				"3xl": "0 0 10px 0 rgba(0, 0, 0, 0.1)",
 			},
+			transitionDuration: {
+				11000: "11000ms",
+			},
 		},
 	},
 	plugins: [],
