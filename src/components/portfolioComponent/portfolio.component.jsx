@@ -1,5 +1,7 @@
 import { Icon } from "@iconify/react";
 
+import PortfolioCard from "../portfolioCardComponent/portfolioCard.component";
+
 export default function Portfolio() {
 	return (
 		<div
@@ -13,51 +15,16 @@ export default function Portfolio() {
 					Each project is a unique piece of development 🧩
 				</h2>
 				<div className='projectList px-5 md:px-0'>
-					<div className='project bg-white p-5 rounded-xl shadow-3xl mb-10 md:grid md:grid-cols-2 md:mb-16'>
-						<div className='w-full h-40  relative overflow-hidden rounded-xl md:h-full '>
-							<img
-								className='  absolute top-0 w-full transition-all duration-11000 hover:-top-[1880px] ease-linear md:top-0 '
-								src='/pizzaWebsiteImg.png'
-								alt=''
-							/>
-						</div>
+					<PortfolioCard
+						img={"/pizzaWebsiteImg.png"}
+						name={"Pizzaku 🍕"}
+						description={
+							"Pizzaku is an online platform dedicated to satisfying your cravings for delicious pizza. Our website offers a convenient  and user-friendly interface that allows you to order pizza for any occasion, whether it'/s a casual dinner at home or a gathering with friends."
+						}
+						githubLink={"https://github.com/Frqs69/Pizza-Website"}
+						liveLink={"https://pizzasitebyme.netlify.app/"}
+					/>
 
-						<div>
-							<p className='projectTitle uppercase font-bold text-center my-5 md:text-xl'>
-								Pizzaku 🍕
-							</p>
-							<p className='projectDescription text-center text-secondTextColor md:px-24 md:text-lg'>
-								Pizzaku is an online platform dedicated to satisfying your
-								cravings for delicious pizza. Our website offers a convenient
-								and user-friendly interface that allows you to order pizza for
-								any occasion, whether it's a casual dinner at home or a
-								gathering with friends.
-							</p>
-							<div className='techStackBox flex gap-3 justify-center my-5'>
-								<p className='shadow-3xl px-3 py-2 md:text-xl'>React</p>
-								<p className='shadow-3xl px-3 py-2 md:text-xl'>SCSS</p>
-							</div>
-							<div className='links flex justify-center gap-6 mt-8'>
-								<a
-									href='https://github.com/Frqs69/Pizza-Website'
-									className='flex items-center'
-									target='_blank'>
-									Code <Icon icon='mdi:github' width='30' className='ml-1' />
-								</a>
-								<a
-									href='https://pizzasitebyme.netlify.app/'
-									className='flex items-center'
-									target='_blank'>
-									Live demo{" "}
-									<Icon
-										icon='akar-icons:link-out'
-										width='20'
-										className='ml-1'
-									/>
-								</a>
-							</div>
-						</div>
-					</div>
 					<div className='project bg-white p-5 rounded-xl shadow-3xl mb-10 md:grid md:grid-cols-2'>
 						<img className='rounded-xl' src='/mobileImg1.jpg' alt='' />
 						<div>
