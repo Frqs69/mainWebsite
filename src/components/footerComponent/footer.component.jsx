@@ -11,7 +11,7 @@ export default function Footer() {
 					<a href=''>
 						<Icon icon='bi:linkedin' width='30' />
 					</a>
-					<a href=''>
+					<a href='https://github.com/Frqs69' target='_blank'>
 						<Icon icon='mdi:github' width='30' />
 					</a>
 				</div>

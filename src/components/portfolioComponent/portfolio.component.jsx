@@ -14,9 +14,9 @@ export default function Portfolio() {
 				</h2>
 				<div className='projectList px-5 md:px-0'>
 					<div className='project bg-white p-5 rounded-xl shadow-3xl mb-10 md:grid md:grid-cols-2 md:mb-16'>
-						<div className='w-full h-40  relative overflow-hidden rounded-xl md:h-full'>
+						<div className='w-full h-40  relative overflow-hidden rounded-xl md:h-full '>
 							<img
-								className='  absolute top-0 w-full transition-all duration-11000 hover:-top-[1880px] ease-linear md:top-0'
+								className='  absolute top-0 w-full transition-all duration-11000 hover:-top-[1880px] ease-linear md:top-0 '
 								src='/pizzaWebsiteImg.png'
 								alt=''
 							/>
