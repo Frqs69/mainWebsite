@@ -6,16 +6,19 @@ export default function PortfolioCard({
 	description,
 	githubLink,
 	liveLink,
+	even,
 }) {
 	return (
 		<div className='project bg-white p-5 rounded-xl shadow-3xl mb-10 md:grid md:grid-cols-2 md:mb-16'>
-			<div className='w-full h-40  relative overflow-hidden rounded-xl md:h-full '>
-				<img
-					className='  absolute top-0 w-full transition-all duration-11000 hover:-top-[1880px] ease-linear md:top-0 '
-					src={img}
-					alt=''
-				/>
-			</div>
+			{even && (
+				<div className='w-full h-40  relative overflow-hidden rounded-xl md:h-full  '>
+					<img
+						className='  absolute top-0 w-full transition-all duration-11000 hover:-top-[1880px] ease-linear md:top-0 '
+						src={img}
+						alt=''
+					/>
+				</div>
+			)}
 
 			<div>
 				<p className='projectTitle uppercase font-bold text-center my-5 md:text-xl'>
@@ -38,6 +41,16 @@ export default function PortfolioCard({
 					</a>
 				</div>
 			</div>
+
+			{!even && (
+				<div className='w-full h-40  relative overflow-hidden rounded-xl md:h-full  '>
+					<img
+						className='  absolute top-0 w-full transition-all duration-11000 hover:-top-[1880px] ease-linear md:top-0 '
+						src={img}
+						alt=''
+					/>
+				</div>
+			)}
 		</div>
 	);
 }

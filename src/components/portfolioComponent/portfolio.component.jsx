@@ -16,13 +16,24 @@ export default function Portfolio() {
 				</h2>
 				<div className='projectList px-5 md:px-0'>
 					<PortfolioCard
-						img={"/pizzaWebsiteImg.png"}
+						img={"/pizzaWebsiteImgEdited.png"}
 						name={"Pizzaku 🍕"}
 						description={
 							"Pizzaku is an online platform dedicated to satisfying your cravings for delicious pizza. Our website offers a convenient  and user-friendly interface that allows you to order pizza for any occasion, whether it'/s a casual dinner at home or a gathering with friends."
 						}
 						githubLink={"https://github.com/Frqs69/Pizza-Website"}
 						liveLink={"https://pizzasitebyme.netlify.app/"}
+						even={true}
+					/>
+					<PortfolioCard
+						img={"/pizzaWebsiteImgEdited.png"}
+						name={"Pizzaku 🍕"}
+						description={
+							"Pizzaku is an online platform dedicated to satisfying your cravings for delicious pizza. Our website offers a convenient  and user-friendly interface that allows you to order pizza for any occasion, whether it'/s a casual dinner at home or a gathering with friends."
+						}
+						githubLink={"https://github.com/Frqs69/Pizza-Website"}
+						liveLink={"https://pizzasitebyme.netlify.app/"}
+						even={false}
 					/>
 
 					<div className='project bg-white p-5 rounded-xl shadow-3xl mb-10 md:grid md:grid-cols-2'>
