@@ -1,7 +1,7 @@
 export default function AboutMe() {
 	return (
 		<div
-			className='aboutMeSection pt-20 md:w-3/5 md:mx-auto md:grid md:grid-cols-2 md:pb-32 md:pt-32'
+			className='aboutMeSection pt-20 md:w-3/5 md:min-w-[1100px] md:mx-auto md:grid md:grid-cols-2 md:pb-32 md:pt-32'
 			id='aboutMe'>
 			<img
 				src='/mobileImg1.jpg'
@@ -15,7 +15,7 @@ export default function AboutMe() {
 				<h2 className='font-bold text-mainTextColor text-center text-2xl px-2 mb-6 md:text-left md:px-0 md:text-3xl'>
 					A dedicated Front-end Developer based in Warsaw, Poland 📍
 				</h2>
-				<p className='text-secondTextColor text-center px-12 text-sm mb-16 md:text-left md:px-0 md:leading-7 md:text-lg'>
+				<p className='text-secondTextColor text-center px-12 text-sm mb-16 md:text-left md:px-0 md:leading-7 md:text-lg '>
 					As a Junior Front-End Developer, I possess an impressive arsenal of
 					skills in HTML, CSS, JavaScript, React, Tailwind, and SCSS. I excel in
 					designing and maintaining responsive websites that offer a smooth user

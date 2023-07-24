@@ -3,7 +3,7 @@ import { Icon } from "@iconify/react";
 export default function Footer() {
 	return (
 		<footer className='bg-mainTextColor text-white font-bold p-10 text-center md:px-0'>
-			<div className='md:w-3/5  md:mx-auto md:flex md:justify-between md:items-center'>
+			<div className='md:w-3/5  md:min-w-[1100px]  md:mx-auto md:flex md:justify-between md:items-center'>
 				<p className='mb-5 md:mb-0 md:text-xl'>
 					Copyright © 2023. All rights are reserved
 				</p>
